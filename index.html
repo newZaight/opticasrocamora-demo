@@ -784,7 +784,28 @@
     .hero .btn-blue:hover{
       background:rgba(255,255,255,.14);
     }
-
+    /* Fondo global gris (evita que el html se quede blanco) */
+    html, body{
+      background:#e6e6e6 !important;
+    }
+    
+    /* Quita fondos claros que tapan el gris */
+    .section-light{
+      background:transparent !important;
+    }
+    
+    /* Quita los fondos especiales de secciones */
+    #servicios,
+    #ubicacion{
+      background:transparent !important;
+    }
+    
+    /* (Opcional) si quieres que las secciones tengan un gris suave en vez de transparente */
+    /*
+    .section{
+      background:#e6e6e6;
+    }
+    */
   </style>
 </head>
 <body>
