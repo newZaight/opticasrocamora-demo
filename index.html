@@ -97,20 +97,25 @@
     .btn:hover{transform:translateY(-2px)}
     .btn-primary{
       color:#fff;
-      background:linear-gradient(135deg,var(--red),var(--red-2));
-      box-shadow:0 12px 24px rgba(227,33,28,.24);
+      background:linear-gradient(135deg,#0b0b0b,#2a2a2a);
+      border:1px solid rgba(0,0,0,.25);
+      box-shadow:0 14px 28px rgba(0,0,0,.22);
     }
+    
     .btn-blue{
-      color:#fff;
-      background:linear-gradient(135deg,var(--blue),var(--blue-2));
-      box-shadow:0 12px 24px rgba(27,57,214,.25);
-    }
-    .btn-ghost{
+      color:#0b0b0b;
       background:#fff;
-      color:var(--ink);
-      border-color:#c9d5ff;
+      border:1px solid #cfcfcf;
+      box-shadow:0 12px 24px rgba(0,0,0,.10);
     }
-    .btn-ghost:hover{border-color:var(--blue)}
+    
+    .btn-ghost{
+      background:transparent;
+      color:#0b0b0b;
+      border:1px solid #bdbdbd;
+    }
+    .btn-ghost:hover{border-color:#0b0b0b}
+    
 
     /* Header */
     .site-header{
